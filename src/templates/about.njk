@@ -1,0 +1,103 @@
+{% extends "layout.njk" %}
+
+{% set title = "About & Services" %}
+{% set activePage = "about" %}
+
+{% block content %}
+    <!-- Page Header -->
+    <header class="py-5 bg-light border-bottom">
+        <div class="container py-lg-5 text-center">
+            <h1 class="display-3 mb-4">Empowering <span class="text-primary">Innovation</span></h1>
+            <p class="lead mx-auto text-muted" style="max-width: 700px;">Keshav Solutions was founded on the principle that technology should be accessible, efficient, and transformative. We partner with visionaries to build the next generation of digital products.</p>
+        </div>
+    </header>
+
+    <!-- Mission & Services -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row align-items-center mb-5 pb-lg-5" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <img src="/src/assets/service1.png" alt="Cloud Solutions" class="img-fluid rounded-4 shadow-lg mb-4 mb-lg-0">
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-3">OUR CORE SERVICES</span>
+                    <h2 class="mb-4">Cloud Native Solutions</h2>
+                    <p class="text-muted mb-4 fs-5">We help enterprises transition to the cloud with scalable architecture that reduces costs and increases deployment speed. Our cloud-native approach ensures your application stays resilient under heavy load.</p>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3 d-flex align-items-center"><i class="fa-solid fa-check-circle text-primary me-3"></i> Serverless Architectures</li>
+                        <li class="mb-3 d-flex align-items-center"><i class="fa-solid fa-check-circle text-primary me-3"></i> Kubernetes Orchestration</li>
+                        <li class="mb-3 d-flex align-items-center"><i class="fa-solid fa-check-circle text-primary me-3"></i> CI/CD Pipeline Automation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5 pb-lg-5 flex-lg-row-reverse" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <img src="/src/assets/service2.png" alt="AI Integration" class="img-fluid rounded-4 shadow-lg mb-4 mb-lg-0">
+                </div>
+                <div class="col-lg-6 pe-lg-5">
+                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-3">AI & INTELLIGENCE</span>
+                    <h2 class="mb-4">Intelligent Systems</h2>
+                    <p class="text-muted mb-4 fs-5">Integrate state-of-the-art AI into your existing workflows. From predictive analytics to automated customer support, we build models that understand your data and drive decisions.</p>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3 d-flex align-items-center"><i class="fa-solid fa-check-circle text-primary me-3"></i> Large Language Model Integration</li>
+                        <li class="mb-3 d-flex align-items-center"><i class="fa-solid fa-check-circle text-primary me-3"></i> Predictive Data Analytics</li>
+                        <li class="mb-3 d-flex align-items-center"><i class="fa-solid fa-check-circle text-primary me-3"></i> Custom Computer Vision Models</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2>The Minds Behind the Tech</h2>
+                <p class="text-muted">A dedicated group of experts committed to your success.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="custom-card text-center p-4">
+                        <div class="rounded-circle bg-primary-subtle mx-auto mb-3 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fa-solid fa-user-tie fs-2 text-primary"></i>
+                        </div>
+                        <h4>Alex Chen</h4>
+                        <p class="text-primary small mb-2">CEO & Founder</p>
+                        <p class="small text-muted">15+ years in cloud consulting.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="custom-card text-center p-4">
+                        <div class="rounded-circle bg-primary-subtle mx-auto mb-3 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fa-solid fa-user-gear fs-2 text-primary"></i>
+                        </div>
+                        <h4>Sarah Miller</h4>
+                        <p class="text-primary small mb-2">CTO</p>
+                        <p class="small text-muted">Ex-MAANG engineer and AI expert.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="custom-card text-center p-4">
+                        <div class="rounded-circle bg-primary-subtle mx-auto mb-3 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fa-solid fa-palette fs-2 text-primary"></i>
+                        </div>
+                        <h4>David Park</h4>
+                        <p class="text-primary small mb-2">Design Lead</p>
+                        <p class="small text-muted">Passionate about clean user experiences.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="custom-card text-center p-4">
+                        <div class="rounded-circle bg-primary-subtle mx-auto mb-3 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fa-solid fa-user-pen fs-2 text-primary"></i>
+                        </div>
+                        <h4>Leila Vance</h4>
+                        <p class="text-primary small mb-2">Growth Strategist</p>
+                        <p class="small text-muted">Focusing on long-term client success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

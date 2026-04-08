@@ -1,0 +1,16 @@
+{
+  "name": "sairaj-task2",
+  "version": "1.0.0",
+  "description": "Nunjucks + Vite Conversion of Task 1",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "nunjucks": "^3.2.4",
+    "vite": "^8.0.7",
+    "vite-plugin-nunjucks": "^0.2.0"
+  }
+}
